@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan System</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>BUSINESS PLAN SYSTEM</h1>
+    </header>
+    <nav class="menu">
+        <div class="menu-contenedor">
+            <ul class="menu-flex">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./mision.html">Misión</a></li>
+                <li><a href="./objetivos.html">Objetivos</a></li>
+                <li><a href="./metodologia.html">Metodología</a></li>
+                <li><a href="./resultados.html">Resultados</a></li>
+                <li><a href="./contactenos.html">Contactenos</a></li>
+                <li><a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwjB1_SA6OCFAxXRlJUCHfqeBWYQPAgJ" target="_blank">Google</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <article>
+            <h2>CONTACTENOS</h2>
+            <p>Por favor complete todos los datos.</p>
+
+            <form action="mailto:info@business.com" method="post"></form>
+            <table border="1" width="100%">
+                <tr>
+                    <td>NOMBRE: *</td>
+                    <td><input type="text" name="nombre" /></td>
+                </tr>
+                <tr>
+                    <td>DIRECCiÓN: *</td>
+                    <td><input type="text" name="direccion" /></td>
+                </tr>
+                <tr>
+                    <td>TELÉFONO: *</td>
+                    <td><input type="text" name="telefono" /></td>
+                </tr>
+                <tr>
+                    <td>MAIL: *</td>
+                    <td><input type="mail" name="mail" /></td>
+                </tr>
+                <tr>
+                    <td>LOCALIDAD: *</td>
+                    <td><input type="text" name="localidad" /></td>
+                </tr>
+                <tr>
+                    <td>PROVINCIA: *</td>
+                    <td>
+                        <imput type="text" name="provincia" placeholder="Escriba su provincia" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>SEXO: *</td>
+                    <td><input type="radio" name="sexo" value="masculino" />Masculino<br />
+                        <input type="radio" name="sexo" value="femenino" />Femenino<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>FORMA DE PAGO: *</td>
+                    <td><select name="formapago">
+                            <option>Tarjeta</option>
+                            <option>Depósito Bancario</option>
+                            <option>Rapipago / Pago Fácil</option>
+                            <option>Otro</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>ENVIO DE SOLICITUD</td>
+                    <td><input type="submit" value="Enviar" />
+                        <input type="reset" value="Cancelar" />
+                    </td>
+                </tr>
+            </table>
+
+        </article>
+    </section>
+
+    <footer>
+        <p>Busines Plan System - Todos los derechos reservados – 2024</p>
+    </footer>
+</body>
+
+</html>
